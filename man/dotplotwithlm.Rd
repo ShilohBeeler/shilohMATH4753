@@ -4,10 +4,10 @@
 \alias{dotplotwithlm}
 \title{Dot Plot with LM abline}
 \usage{
-dotplotwithlm(inputdata, x, y)
+dotplotwithlm(data, x, y)
 }
 \arguments{
-\item{inputdata}{The data frame used for the dotplot and linear model.}
+\item{data}{The data frame used for the dotplot and linear model.}
 
 \item{x}{The x-axis variable}
 
