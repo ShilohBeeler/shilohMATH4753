@@ -2,4 +2,5 @@
 
 export(dotplotwithlm)
 export(mybin)
+export(myclt)
 export(myncurve)
