@@ -3,7 +3,7 @@
 #' @param iter The number of iterations to run.
 #' @param x The sample to draw from.
 #' @param fun The function for the statistic/parameter.
-#' @param alpha Used in (1-alpha)100% to determine the strength of the confidence interval.
+#' @param alpha Used in (1-alpha)100 to determine the strength of the confidence interval.
 #' @param cx Character expansion factor for text.
 #' @param ... Further arguments and graphical parameters passed to hist().
 #'

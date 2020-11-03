@@ -13,7 +13,7 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{fun}{The function for the statistic/parameter.}
 
-\item{alpha}{Used in (1-alpha)100% to determine the strength of the confidence interval.}
+\item{alpha}{Used in (1-alpha)100 to determine the strength of the confidence interval.}
 
 \item{cx}{Character expansion factor for text.}
 
