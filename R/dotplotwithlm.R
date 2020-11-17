@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{spruce.df<-read.csv("Spruce.df");dotplotwithlm(inputdata=spruce.df, x=BHDiameter, y=Height)}
+#' \dontrun{spruce.df<-read.csv("Spruce.df");dotplotwithlm(data=spruce.df, x=BHDiameter, y=Height)}
 dotplotwithlm <- function(data, x, y) {
   my.lm = lm(y~x, data=data)
   with(data, plot(y~x,bg="Blue",pch=21,cex=1.1, ylim=c(0,1.1*max(y)),xlim=c(0,1.1*max(x))))

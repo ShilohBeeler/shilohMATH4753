@@ -20,5 +20,5 @@ Outputs a dotplot with the linear model drawn onto it.
 Dot Plot with LM abline
 }
 \examples{
-\dontrun{spruce.df<-read.csv("Spruce.df");dotplotwithlm(inputdata=spruce.df, x=BHDiameter, y=Height)}
+\dontrun{spruce.df<-read.csv("Spruce.df");dotplotwithlm(data=spruce.df, x=BHDiameter, y=Height)}
 }
