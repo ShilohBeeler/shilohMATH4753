@@ -1,0 +1,67 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(shilohMATH4753)
+```
+
+# shilohMATH4753
+
+This is a package which contains all the functions created over the course of the past semester's labs.
+For all functions below, use ?functionname for more information -- this is just an overview.
+
+## dotplotwithlm
+
+This function creates a dot plot with the linear model drawn onto it.
+Use it like: dotplotwithlm(data, x, y), where x and y are the relevant columns from data.
+
+## fire
+
+This is a dataset containing information on home damage caused by fires.
+
+## mybin
+
+This function simulates a binomial across many iterations. Use it like mybin(iter, n, p)
+where iter is number of iterations, n is number of elements, and p is the proabability
+of success.
+
+## myboot2
+
+This is a bootstrapping function which finds confidence intervals for population parameters given sample statistics. Use it like myboot2(iter, x, fun, alpha) where iter is number of iterations,
+x is the sample data, fun is the function for the statistic, and alpha is the size of the tail.
+
+## myci
+
+This function generates a 95% confidence interval for the population mean. Use it like myci(x)
+where x is the sample data.
+
+## myclt
+
+This function demonstrates the central limit theorem for the sum of a uniform distribution.
+Use it like myclt(n, iter, a, b) where n is the sample size, iter is the number of
+iterations, a is the lower limit of the distribution, and b is the upper limit.
+
+## mymaxlik
+
+This function finds the maximum likelihood estimate for a parameter. Use it like
+mymaxlik(lfun, x, param) where x is the sample data, lfun is the function to apply
+to all values, and param are the parameter values to consider.
+
+## myncurve
+
+This function creates a normal curve shaded from negative infinity to a. Use it like
+myncurve(mu, sigma, a) where mu is the mean and sigma is the standard deviation of
+the normal distribution.
