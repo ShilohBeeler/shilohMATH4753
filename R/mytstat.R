@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{mytstat(c(1,2,3,4,5))}
-mytstat<-function(z){ # The value of t when the NULL is assumed true (xbar-muo)/z/sqrt(n)
+#' \dontrun{mytstat(c(1,2,3,4,5), 3)}
+mytstat<-function(z, mu0){ # The value of t when the NULL is assumed true (xbar-muo)/z/sqrt(n)
   sqrt(length(z))*(mean(z)-mu0)/sd(z)
 }

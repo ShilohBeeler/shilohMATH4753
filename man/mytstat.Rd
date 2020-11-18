@@ -4,7 +4,7 @@
 \alias{mytstat}
 \title{A function which outputs the t statistic for given sample data.}
 \usage{
-mytstat(z)
+mytstat(z, mu0)
 }
 \arguments{
 \item{z}{The sample data to return the t statistic for.}
@@ -16,5 +16,5 @@ The t-statistic for the sample data.
 A function which outputs the t statistic for given sample data.
 }
 \examples{
-\dontrun{mytstat(c(1,2,3,4,5))}
+\dontrun{mytstat(c(1,2,3,4,5), 3)}
 }
